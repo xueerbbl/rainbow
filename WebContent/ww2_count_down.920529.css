@@ -1,0 +1,13 @@
+html,body,.ww2_count_down_wrap{height:100%}
+body{background:#222 url("images/map_bg.png") center top fixed repeat-x;background-size:cover;font-family:"microsoft yahei light","microsoft yahei","\5fae\8f6f\96c5\9ed1",sans-serif;overflow-x:hidden}
+@media screen and (min-width:960px){body{min-width:960px;min-height:560px}
+}
+.ww2_count_down_content{position:relative;box-sizing:border-box;height:100%}
+.ww2_count_down_content *,.ww2_count_down_content *:before,.ww2_count_down_content *:after{margin:0;padding:0;box-sizing:border-box}
+@media screen and (min-width:960px){.ww2_count_down_content{padding-top:0px;margin-top:0px}
+}
+@media screen and (max-width:959px){.N-nav-bottom,.ntes_nav_wrap{display:none}
+}
+@media screen and (min-width:960px){.N-nav-bottom,.ntes_nav_wrap{display:block}
+.N-nav-bottom{position:fixed;width:100%;bottom:0}
+}
